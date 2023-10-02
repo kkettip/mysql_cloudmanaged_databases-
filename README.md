@@ -43,9 +43,11 @@
    14. Input: public IP address and 0.0.0.0/0 network
    15. Select: Create for deployment
        
-  **Connect MySQL workbench to GCP instance**
+**Connect MySQL workbench to GCP instance**
 1. Open MySQL Workbench
 2. Create a new connection by clicking on plus sign.
 3. Provide hostname, username, etc. 
 4. Select: OK for deployment     
 
+**Errors Encountered**
+1. Azure instance was not able to connect to MYSQL workbench when the firewall was not added. Issue was resolved by adding the firewall that allow for public access with a Start IP address of 0.0.0.0 and End IP address of 255.255.255.255.
