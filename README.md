@@ -1,6 +1,7 @@
 # mysql_cloudmanaged_databases
 
-**###MySQL setup for Azure**
+**MySQL setup for Azure**
+
 **Create an Instance in Azure**
 1. Log into the portal.azure.com
 2. Steps:
@@ -13,6 +14,7 @@
   7. Add: firewall rule name and start and end IP address
   8. Select: Review and create
   9. Select: Create
+      
 **Connect MySQL workbench to Azure instance**
 1. Open MySQL Workbench
 2. Create a new connection by clicking on plus sign.
